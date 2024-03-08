@@ -1,0 +1,26 @@
+GET http://localhost:7007/product
+###
+
+GET http://localhost:7007/product/1
+
+{
+"id": 4,
+"name": "Yogurt",
+"price": 2.0,
+"category": "Dairy"
+}
+
+###
+
+GET http://localhost:7007/product/Dairy
+
+{
+"id": 4,
+"name": "Yogurt",
+"price": 2.0,
+"category": "Dairy"
+}
+
+###
+
+

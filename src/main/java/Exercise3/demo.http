@@ -1,0 +1,14 @@
+GET http://localhost:7000/hello/name
+
+{
+  "name": "mohamed"
+
+}
+
+###
+
+GET http://localhost:7000/headers
+
+###
+
+GET http://localhost:7000/queryParam
